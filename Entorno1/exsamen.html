@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="examen.css">
+    <title>Tu Título Aquí</title>
+</head>
+<body>
+    <header>
+        <h1>GTA VI</h1>
+        <div class="lista">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/examen/exsamen.html?calendar=&vol=128&favcolor=%23ff0000&x=23&y=24#">Página Principal</a></li>
+            <li><a href="http://127.0.0.1:5500/examen/examen.html#http://127.0.0.1:5500/examen/examen.html">Enlace 2</a></li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+            <li>w3school</li>
+            <li>mclibre</li>
+            <li>w3docs</li>
+        </ul>
+    </div>
+     </header>
+     <main>
+        <details>
+            
+            <summary> Detalles</summary>
+            <form>
+                <fieldset>
+                    <legend>checkBox</legend>
+                    <label><input type="checkbox"> Opcion 1</label>
+                    <label><input type="checkbox"> Opcion 2</label>
+                    <label><input type="checkbox"> Opcion 3</label>
+                    <br>
+                    <label for="textbox1">Cuadro de Texto 1:</label>
+                        <input type="text" id="textbox1">
+                        <label for="textbox2">Cuadro de Texto 2:</label>
+                        <input type="text" id="textbox2">
+                    <legend>Calendario</legend>
+                    <label for="calendar">Selecciona una fecha: </label>
+                    <input type="date" id="calendar" name="calendar">
+                </fieldset>
+                <fieldset>
+                    <label for="vol">Rango (o y 255) </label>
+                    <input type="range" id="vol" name="vol" min="0" max="255">
+                    <label for="favcolor">Selecciona tu color favorito</label>
+                    <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </fieldset>
+            </form>
+        </details>
+
+
+
+
+     </main>
+</body>
